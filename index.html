@@ -5,29 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sinem.ai</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <header>
         <h1>Sinem Dere</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#blog">Blog</a></li>
-        </ul>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-    </section>
-    <section id="resume">
-        <h2>Resume</h2>
-    </section>
-    <section id="blog">
-        <h2>Blog</h2>
-    </section>
+    <main class="container">
+        <!-- Sidebar with image and About Me -->
+        <aside class="sidebar">
+            <img src="image.png" alt="ponyowithmom" class="profile-pic">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>A brief introduction about yourself. Keep it light, cozy, and warm.</p>
+                <p>Find me on:</p>
+                <ul class="social-links">
+                    <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+                    <li><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+                </ul>
+            </section>
+        </aside>
+
+        <!-- Main content with Blog Section -->
+        <section id="content">
+            <section id="blog">
+                <h2>Blog</h2>
+                <article class="post">
+                    <h3>A Cozy Reflection</h3>
+                    <p><em>Published on October 17, 2024</em></p>
+                    <p>This post is about finding comfort in everyday moments...</p>
+                    <a href="post1.html" class="read-more">Read More</a>
+                </article>
+            
+            </section>
+        </section>
+    </main>
     <footer>
         <p>&copy; 2024 sinem.ai</p>
     </footer>
