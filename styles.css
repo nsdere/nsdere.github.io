@@ -1,0 +1,96 @@
+body {
+    font-family: 'Courier New', monospace; /* Retro typewriter style font */
+    background-color: #1b1b1b; /* Dark background */
+    color: #f4f4f4; /* Light text for contrast */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-shadow: 1px 1px 1px #000; /* Subtle shadow for text */
+}
+
+header {
+    background-color: #ff005a; /* Bold, punk pink background */
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    text-transform: uppercase; /* All caps for the header */
+    letter-spacing: 4px;
+    border-bottom: 5px solid #0c0c0c; /* Grungy effect */
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 3px 3px #000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    border-bottom: 3px solid #ff005a; /* Punk-style divider */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #f4f4f4;
+    border-radius: 5px;
+    background-color: #1b1b1b;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff005a; /* Punk color hover effect */
+    border-color: #ff005a;
+    color: #fff;
+}
+
+section {
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 800px;
+    background-color: #2d2d2d; /* Slightly lighter gray background */
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    border: 2px dashed #ff005a; /* Dashed border for a more rebellious feel */
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff005a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: #ff005a;
+    border-top: 5px solid #0c0c0c;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+footer p {
+    margin: 0;
+}
